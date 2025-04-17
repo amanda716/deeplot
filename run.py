@@ -414,4 +414,4 @@ with gr.Blocks(title="Deeplot", theme="soft") as app:
 if __name__ == "__main__":
     # 先配置队列，再启动应用
     app.queue()
-    app.launch(server_name="0.0.0.0", server_port=7860)
+    app.launch(server_name="127.0.0.1", server_port=7860)
